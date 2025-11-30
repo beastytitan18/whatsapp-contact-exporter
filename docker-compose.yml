@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  wa-contact-exporter:
+    build: .
+    container_name: wa-contact-exporter
+    stdin_open: true    # Keep stdin open for interactive input
+    tty: true           # Allocate a pseudo-TTY for QR code display
+    volumes:
+      # Persist auth data so you don't need to scan QR every time
+      - ./auth_info:/app/auth_info
+      # Export contacts.csv to host machine
+      - ./output:/app/output
+    environment:
+      - NODE_ENV=production
