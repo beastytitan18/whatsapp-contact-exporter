@@ -56,8 +56,8 @@ No QR scan needed on subsequent runs!
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/beastytitan18/WA-contact.git
-   cd WA-contact
+   git clone https://github.com/beastytitan18/whatsapp-contact-exporter.git
+   cd whatsapp-contact-exporter
    ```
 
 2. Install dependencies:
