@@ -131,3 +131,16 @@ npm run dev
 ## Disclaimer
 
 This tool is for personal use only. Please respect WhatsApp's Terms of Service and don't use this for spam or bulk messaging.
+
+## Credits
+
+- [Baileys](https://github.com/WhiskeySockets/Baileys) - The WhatsApp Web API library that powers this tool
+- [WhiskeySockets](https://github.com/WhiskeySockets) - Maintainers of the Baileys library
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+⭐ If you find this useful, please star the repo!
